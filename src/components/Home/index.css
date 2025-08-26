@@ -1,0 +1,125 @@
+.home-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 92vh;
+  padding: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    padding: 0;
+    padding-left: 162px;
+    padding-right: 162px;
+  }
+}
+
+.home-image-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-image-container {
+    order: 1;
+  }
+}
+
+.mobile-home-image {
+  width: 227px;
+  height: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-home-image {
+    display: none;
+  }
+}
+
+.desktop-home-image {
+  width: 644px;
+  height: 624px;
+  margin-top: 40px;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-home-image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-content-container {
+    width: 526px;
+    margin-top: 80px;
+  }
+}
+
+.home-heading {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #304766;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 56px;
+    line-height: 72px;
+  }
+}
+
+.home-description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #304766;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 20px;
+    line-height: 37px;
+    margin-bottom: 40px;
+  }
+}
+
+.home-book-a-new-trip-button-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-book-a-new-trip-button-container {
+    text-align: left;
+  }
+}
+
+.home-book-a-new-trip-button {
+  width: 175px;
+  height: 48px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  gap: 8px;
+  background-color: #304766;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

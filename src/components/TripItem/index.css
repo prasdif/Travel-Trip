@@ -1,0 +1,64 @@
+.my-trip-item {
+  border: 1px solid #3047665e;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-trip-item {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.my-trip-item-location {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #334155;
+  margin-top: 0;
+}
+
+.my-trip-item-date-label {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.my-trip-item-date {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #0f0f0fcc;
+  margin-top: 0;
+}
+
+.my-trip-item-cancel-button {
+  width: 64px;
+  height: 28px;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid #2563eb;
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #2563eb;
+  cursor: pointer;
+  outline: none;
+}

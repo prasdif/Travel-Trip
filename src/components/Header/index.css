@@ -1,0 +1,71 @@
+.header-navbar {
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 162px;
+  padding-right: 162px;
+  background-color: #304766;
+}
+
+@media screen and (max-width: 767px) {
+  .header-navbar {
+    display: none;
+  }
+}
+
+.header-navbar-website-logo {
+  font-family: Caveat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+.header-navbar-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar-item {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.active-navbar-item-home {
+  font-weight: 700;
+}
+
+.active-navbar-item-my-trips {
+  font-weight: 700;
+}
+
+.header-navbar-logout-button {
+  width: 103px;
+  height: 48px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  gap: 8px;
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #304766;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
